@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 008-表單選擇控制項</title>
+</head>
+<body>
+    <h1>偏好調查</h1>
+
+    <form>
+        <div>
+            <p>請選擇您的性別：</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">男性</label>
+            
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">女性</label>
+            
+        </div>
+
+        <br>
+
+        <div>
+            <p>您的興趣嗜好（可複選）：</p>
+            <input type="checkbox" id="coding" name="hobby" value="coding">
+            <label for="coding">寫程式</label>
+            
+            <input type="checkbox" id="gaming" name="hobby" value="gaming">
+            <label for="gaming">打電動</label>
+            
+            <input type="checkbox" id="reading" name="hobby" value="reading">
+            <label for="reading">看書</label>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="checkbox" id="agree" name="terms" value="yes">
+            <label for="agree">我已閱讀並同意服務條款</label>
+        </div>
+    </form>
+</body>
+</html>
