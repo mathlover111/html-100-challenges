@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 013-外部資源嵌入</title>
+</head>
+<body>
+
+    <h1>多媒體嵌入進階 (&lt;embed&gt; 與 &lt;object&gt;)</h1>
+    <p>把桌面的PDF 檔案搬進網頁！</p>
+
+    <hr>
+
+    <div>
+        <h3>1. 使用 &lt;embed&gt; 嵌入本地 PDF 檔案</h3>
+        <embed 
+            src="meow.pdf" 
+            type="application/pdf" 
+            width="100%" 
+            height="400px">
+    </div>
+
+    <br><hr><br>
+
+    <div>
+        <h3>2. 使用 &lt;object&gt; 嵌入本地 PDF</h3>
+        <object 
+            data="meow.pdf" 
+            type="application/pdf" 
+            width="100%" 
+            height="400px">
+            
+            <p>您的瀏覽器不支援直接線上觀看 PDF，請點擊 <a href="meow.pdf">這裡下載 PDF</a>。</p>
+            
+        </object>
+    </div>
+
+</body>
+</html>
